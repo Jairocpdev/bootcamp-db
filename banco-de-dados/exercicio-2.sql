@@ -9,7 +9,7 @@ FROM alunos
 INNER JOIN cursos ON alunos.curso_id = cursos.id
 WHERE cursos.nome_curso = 'Ciência de Dados';
 
--- Criação para troca de curso do aluno
+-- Criação para troca de curso do aluno--
 INSERT INTO cursos (nome_curso) VALUES ('Ciência de Dados');
 
 --UPDATE: mover aluno de curso--
