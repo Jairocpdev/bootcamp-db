@@ -1,4 +1,5 @@
 --SELECT: nome do aluno e curso--
+--Execução do segundo exercício apenas mediante conclusão do primeiro--
 SELECT alunos.nome_aluno, cursos.nome_curso
 FROM alunos
 INNER JOIN cursos ON alunos.curso_id = cursos.id;
